@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+
+}
+/*NOSOTROS*/
+
+body .fimgg{
+    font-family:"Poppins",sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgba(69, 177, 96)0%,
+        rgba(23, 75, 172)50%,
+        rgba(107, 152, 211)100%
+    );
+    padding: 70px 0;
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+
+.menu {
+    position:center;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo {
+    font-size: 25px;
+    color:#ff3c2a;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+    }
+    .menu .navbar ul li {
+        position: relative;
+        float: left;
+        }
+        .menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: #111111;
+        display: block;
+        }
+        .menu .navbar ul li a:hover {
+        color:#ff3c2a;
+        }
+         
+        
+        #menu {
+        display: none;
+        }
+        .menu-icono{
+            width: 25px;
+        }
+        .menu label {
+        cursor: pointer;
+        display: none;
+        }
+        .header-content {
+            display:flex;
+            align-items: center;
+            flex: 1;
+            
+            }
+            .header-txt {
+            flex-basis: 40%;
+            }
+            
+            .header-txt h1 {
+            
+                font-size: 70px;
+                line-height: 1;
+                color:#181818 ;
+                text-transform: uppercase;
+                margin-bottom: 25px;
+            }
+            
+            p {
+                color: #000000;
+                font-size: 18px;
+                margin-bottom: 5%;
+            }
+.moda{
+    width: 350px;
+    height: 350px;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* index*/
+
+body {
+    font-family:"Poppins",sans-serif;
+    min-height:80vh;
+    background: linear-gradient(
+        90deg,
+        rgb(124, 124, 233)0%,
+        rgb(118, 211, 115)50%,
+        rgb(62, 59, 226)100%
+        );
+        padding: 70px 0;
+}
+
+img {
+
+max-width: 100%;
+
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+
+
+
+
+
+.headerr { 
+
+display: flex;
+align-items: center;
+padding: 70px 0;
+}
+.menu {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo {
+font-size: 25px;
+color:#ff3c2a;
+text-transform: uppercase;
+font-weight: 800;
+
+}
+ 
+.menu .navbar ul li {
+position: relative;
+float: left;
+}
+.menu .navbar ul li a {
+font-size: 18px;
+padding: 20px;
+color: #111111;
+display: block;
+}
+.menu .navbar ul li a:hover {
+color:#ff3c2a;
+}
+ 
+
+#menu {
+display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label {
+cursor: pointer;
+display: none;
+}
+
+
+.header-content {
+display:flex;
+align-items: center;
+flex: 1;
+
+}
+.header-txt {
+flex-basis: 40%;
+}
+
+.header-txt h1 {
+
+    font-size: 70px;
+    line-height: 1;
+    color:#181818 ;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+.btn-1, .btn-3 {
+display: inline-block;
+padding: 10px 30px;
+color: #ff3c2a;
+border: 2px solid #ff3c2a;
+text-transform: capitalize;
+border-radius: 15px;
+}
+.btn-1:hover,.btn-3:hover {
+color: #ffffff;
+background-color: #ff3c2a;
+}
+.header-img{
+    flex-basis: 60%;
+}
+.oferts{
+
+    padding: 150px 0;
+}
+h2 {
+font-size: 40px;
+line-height: 1;
+color: #181818;
+margin-bottom: 10px;
+}
+
+.oferts-content {
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+.oferts-1{
+    flex-basis: calc(30%-30px);
+    box-shadow: 0 0 20px rgba(0, 0,0, 0.2);
+    padding: 25px;
+    text-align: center;
+    background-color: #f7fafa;
+    border-radius: 10px;
+}
+.oferts-1 img{
+width: 130px;
+height: 170px;
+margin-bottom: 10px;
+
+}
+
+h3{
+    font-size: 20px;
+    line-height: 1;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+
+.product-txt p {
+    margin-bottom: 10px;
+}
+
+.precio {
+
+color: #ff3c2a;
+font-weight: 700;
+margin-bottom: 20px;
+
+
+
+}
+.btn-3 {
+padding: 4px 20px;
+
+}
+.logan-1 {
+flex-basis: 40%;
+background: linear-gradient(
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2)
+),
+url(imagenes/b1.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px;
+border-radius: 10px;
+
+}
+.logan-1 h3 {
+    font-size: 30px;
+    color: #ffffff;
+text-transform: uppercase;
+
+}
+.logan-1 p {
+font-size: 18px;
+text-transform: uppercase;
+color: #f7f7f7;
+margin-bottom: 20px;
+}
+
+.btn-2 {
+display: inline-block;
+padding: 8px 30px;
+border: 1px solid #ffffff;
+color: #ffffff;
+}
+.promotion{
+    padding: 80px 0;
+    background-color: #f7f7f7;
+
+}
+.promotion-content {
+display: flex;
+}
+.promotion-txt {
+flex-basis: 50%;
+}
+.product-img {
+
+    flex: basis 50%;
+text-align: center;
+}
+.product-img img{
+    width: 250px;
+
+}
+.product {
+padding: 100px 0;
+text-align: center;
+
+}
+
+.product-content{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+gap: 30px;
+margin-bottom: 50px;
+}
+.blog{
+padding: 50px 0 100px 0;
+}
+.blog-content{
+    display: flex;
+justify-content: space-between;
+
+}
+
+.blog-1{
+    flex-basis: calc(33.3% - 30px);
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(0, 0,0, 0.2);
+}
+
+.blog-txt {
+padding: 40px;
+}
+.btn-4{
+display: inline-block;
+border: 1px solid #181818;
+padding: 8px 25px;
+font-size: 17px;
+text-transform: capitalize;
+color: #181818;
+}
+
+.footer {
+    padding: 50px 0;
+    display: flex;
+justify-content: space-between;
+
+
+}
+.link h3 {
+font-size: 17px;
+color: #181818;
+margin-bottom: 10px;
+}
+.link a {
+    font-size: 17px;
+    color: #181818;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #ff3c2a;
+}
+@media(max-width:500px) {
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background-color:#c50b0b;
+display: none;
+    }
+    .menu.navbar ul li {
+        width:100;
+    }
+    #menu:checked ~ .navbar {
+display: initial;
+    }
+.logo{
+    display: none;
+}
+.menu.navbar ul li a:hover{
+    color: #ffffff;
+}
+.header{
+min-height: 0vh;
+padding: 100px 30px 50px 30px;
+}
+.header-content{
+    flex-direction: column;
+    text-align: center;
+}
+.header-txt{
+margin-bottom: 25px;
+}
+.oferts{
+    padding: 30px;
+}
+.oferts-content{
+    flex-direction: column;
+}
+
+.oferts-1 {
+    margin-bottom: 30px;
+}
+.logan-1{
+    order: -2;
+margin-bottom: 30px;
+}
+.promotion{
+    padding: 30px;
+}
+.promotion-content{
+    flex-direction: column;
+    text-align:center ;
+}
+.promotion-txt{
+margin-bottom: 25px;
+
+}
+.promotion-img img{
+    width: 200px;
+}
+.product {
+    padding: 30px;
+}
+
+.product-content{
+
+    grid-template-columns: repeat(1,1fr);
+    gap: 0;
+}
+.blog {
+    padding: 30px;
+}
+.blog-content{
+    flex-direction: column;
+}
+.footer{
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .carrito-de-compras {
+        
+        position: relative;
+        padding: 20px;
+        margin: 20px;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carrito-de-compras h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .carrito-de-compras table {
+        width: 50%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    
+    .carrito-de-compras table th,
+    .carrito-de-compras table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    .carrito-de-compras table th {
+        background-color: #f4f4f4;
+    }
+    
+    .carrito-de-compras table td img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .carrito-de-compras table .btn-eliminar {
+        background-color: #87dde1ff;
+        color: black;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .carrito-de-compras table .btn-eliminar:hover {
+        background-color: #555;
+        color: white;
+    }
+    
+    .carrito-de-compras .total {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    
+    .carrito-de-compras .boton-comprar {
+        background-color: #87dde1ff;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+    }
+    
+    .carrito-de-compras .boton-comprar:hover {
+        background-color: #555;
+        color: white;
+    }
+    /* Estilo del botón de comprar en el carrito */
+    .btn-comprar {
+        background-color: #007bff; /* Color de fondo */
+        color: white; /* Color del texto */
+        border: none; /* Sin borde */
+        padding: 12px 24px; /* Espaciado interno */
+        font-size: 16px; /* Tamaño del texto */
+        cursor: pointer; /* Indicador de clic */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+        border-radius: 5px; /* Esquinas redondeadas */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    }
+    
+    .btn-comprar:hover {
+        background-color: #b30000; /* Color de fondo al pasar el mouse */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+    }
+    
+    .btn-comprar:active {
+        background-color: #b32b01; /* Color de fondo al hacer clic */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset; /* Sombra interna al hacer clic */
+    }
+    /* Estilo del botón de VACIAR carrito */
+    .btn-vaciar-carrito {
+        background-color: #007bff; /* Color de fondo */
+        color: white; /* Color del texto */
+        border: none; /* Sin borde */
+        padding: 12px 24px; /* Espaciado interno */
+        font-size: 16px; /* Tamaño del texto */
+        cursor: pointer; /* Indicador de clic */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+        border-radius: 5px; /* Esquinas redondeadas */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    }
+    
+    .btn-vaciar-carrito:hover {
+        background-color: #b30000; /* Color de fondo al pasar el mouse */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+    }
+    
+    .btn-vaciar-carrito:active {
+        background-color: #b32b01; /* Color de fondo al hacer clic */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset; /* Sombra interna al hacer clic */
+    }
+
+
+
+
+body .fimg {
+    font-family:"Poppins",sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgb(124, 124, 233)0%,
+        rgb(118, 211, 115)50%,
+        rgb(62, 59, 226)100%
+    );
+    padding: 70px 0;
+}
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+
+.menu {
+    position:center;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo {
+    font-size: 25px;
+    color:#ff3c2a;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+    }
+    .menu .navbar ul li {
+        position: relative;
+        float: left;
+        }
+        .menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: #111111;
+        display: block;
+        }
+        .menu .navbar ul li a:hover {
+        color:#ff3c2a;
+        }
+         
+        
+        #menu {
+        display: none;
+        }
+        .menu-icono{
+            width: 25px;
+        }
+        .menu label {
+        cursor: pointer;
+        display: none;
+        }
+        .header-content {
+            display:flex;
+            align-items: center;
+            flex: 1;
+            
+            }
+            .header-txt {
+            flex-basis: 40%;
+            }
+            
+            .header-txt h1 {
+            
+                font-size: 70px;
+                line-height: 1;
+                color:#181818 ;
+                text-transform: uppercase;
+                margin-bottom: 25px;
+            }
+            
+            p {
+                color: #000000;
+                font-size: 18px;
+                margin-bottom: 5%;
+            }
+/* Formulario de Compra */
+.formulario-compra {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.formulario-compra h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario-compra form div {
+    margin-bottom: 10px;
+}
+
+.formulario-compra label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-compra input[type="text"],
+.formulario-compra input[type="email"],
+.formulario-compra input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.formulario-compra button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.formulario-compra button:hover {
+    background-color: #218838;
+}
+.carrito {
+    position: relative;
+}
+.carrito .btn-carrito img {
+    width: 60px; 
+}
+.carrito .notificacion {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-agregar-carrito {
+        
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-agregar-carrito h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.btn-agregar-carrito table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.btn-agregar-carrito th,
+.btn-agregar-carrito td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.btn-agregar-carrito table th {
+    background-color: #f4f4f4;
+}
+
+.btn-agregar-carrito table td img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.btn-agregar-carrito table .btn-eliminar {
+    background-color: #87dde1ff;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-agregar-carrito table .btn-eliminar:hover {
+    background-color: #555;
+    color: white;
+}
+
+.btn-agregar-carrito .total {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btn-agregar-carrito .boton-comprar {
+    background-color: #87dde1ff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-agregar-carrito.boton-comprar:hover {
+    background-color: #555;
+    color: white;
+}
+/* Estilo del botón de comprar en el carrito */
+.btn-agregar-carrito {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 24px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Indicador de clic */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.btn-agregar-carrito:hover {
+    background-color: #b30000; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+.btn-agregar-carrito:active {
+    background-color: #b32b01; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset; /* Sombra interna al hacer clic */
+}
+/* Estilo del botón de VACIAR carrito */
+.btn-agregar-carrito {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 24px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Indicador de clic */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.btn-agregar-carrito:hover {
+    background-color: #b30000; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+.btn-agregar-carrito:active {
+    background-color: #b32b01; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset; /* Sombra interna al hacer clic */
+}
+
+
+
+
+
+
+
+
+
+
+

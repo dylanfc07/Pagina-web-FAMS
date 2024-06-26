@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylefin.css">
+    <title>Tienda de Gorras | </title>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <header class="header">
+               <div class="menu container">
+                 <a href="index.html"class="logo">FAMS</a>
+                   <input type="checkbox" id="menu" />
+                      <label for="menu">
+                         <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+                           </label>
+                            <nav class="navbar">
+                               <ul>
+                                 <li><a href="index.html">inicio</a></li>
+                                 <li><a href="carrito.html">Carrito</a></li>
+                                 <li><a href="nosostros.html">nosotros</a></li> 
+                  </ul>
+              </nav>
+          </div>
+      </div>
+          
+    </header>
+    <br><br>
+    <div class="carrito">
+      <a href="carrito.html" class="btn-carrito">
+          <img src="Imagenes/carrito.svg" alt="Bolsa de Compras">
+          <div class="notificacion" id="notificacion-carrito">0</div>
+      </a>
+  </div>
+</header>
+<section class="detalle-producto">
+  <div class="producto-imagen">
+      <img src="imagenes/pr2.png" alt="GORRA NEW ERA">
+  </div>
+  <div class="producto-detalles">
+      <h1>NEW ERA CELTICS</h1>
+      <h3>UNITALLA</h3>
+      <h3>COLOR:NEGRO/VERDE  </h3>
+      <p class="precio">Precio:690.00</p>
+      <div class="cantidad">
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+      </div>
+      <button class="btn-agregar-carrito" onclick="agregarAlCarrito()">Agregar al Carrito</button>
+  </div>
+</section>
+<footer class="footer">
+  <div class="logo">
+      <H1>FAMS</H1>
+  </div>
+ 
+</footer>
+<script>
+  function agregarAlCarrito() {
+      const producto = {
+          id: 8, // ID único del producto
+          nombre: "GORRA NEW ERA/CELTICS",
+          precio: 890.00,
+          cantidad: parseInt(document.getElementById('cantidad').value),
+          imagen: "imagenes/pr2.png"
+      };
+
+      let carrito = localStorage.getItem('carrito');
+      if (carrito) {
+          carrito = JSON.parse(carrito);
+      } else {
+          carrito = [];
+      }
+
+      const productoExistente = carrito.find(item => item.id === producto.id);
+      if (productoExistente) {
+          productoExistente.cantidad += producto.cantidad;
+      } else {
+          carrito.push(producto);
+      }
+
+      localStorage.setItem('carrito', JSON.stringify(carrito));
+      const notificacionCarrito = document.getElementById('notificacion-carrito');
+      let cantidadTotal = 0;
+      carrito.forEach(item => cantidadTotal += item.cantidad);
+      notificacionCarrito.innerText = cantidadTotal;
+      alert('Producto agregado al carrito');
+  }
+</script>
+</body>
+</html> 
